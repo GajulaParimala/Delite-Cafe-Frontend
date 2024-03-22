@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script  src="/lib/min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <title>Document</title>
+</head>
+<body ng-app="app">
+    <div ng-controller="emp">  
+        value of 1st num is {{num1}} ,but you can change <input type="text" ng-model="num1"/> <br>
+        value of 2nd num is {{num2}},but you can change <input type="text" ng-model="num2"/> <br>
+        sum is {{sum}}<br>
+        <button ng-click="sumthem()"> calculate</button>
+    </div>    
+</body>
+</html>
